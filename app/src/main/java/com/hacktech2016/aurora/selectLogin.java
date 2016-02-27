@@ -1,4 +1,4 @@
-package com.eje_c.rajawalicardboard;
+package com.hacktech2016.aurora;
 
 import android.content.Intent;
 import android.os.Bundle;

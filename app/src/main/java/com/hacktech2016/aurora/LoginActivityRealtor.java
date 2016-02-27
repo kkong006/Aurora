@@ -1,4 +1,4 @@
-package com.eje_c.rajawalicardboard;
+package com.hacktech2016.aurora;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -33,7 +33,7 @@ import java.util.List;
 /**
  * A login screen that offers login via email/password.
  */
-public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
+public class LoginActivityRealtor extends Activity implements LoaderCallbacks<Cursor> {
 
     /**
      * A dummy authentication store containing known user names and passwords.
@@ -56,7 +56,7 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_login_activity_realtor);
         // Set up the login form.
         mEmailView = (AutoCompleteTextView) findViewById(R.id.email);
         populateAutoComplete();
@@ -225,7 +225,7 @@ public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
     private void addEmailsToAutoComplete(List<String> emailAddressCollection) {
         //Create adapter to tell the AutoCompleteTextView what to show in its dropdown list.
         ArrayAdapter<String> adapter =
-                new ArrayAdapter<>(LoginActivity.this,
+                new ArrayAdapter<>(LoginActivityRealtor.this,
                         android.R.layout.simple_dropdown_item_1line, emailAddressCollection);
 
         mEmailView.setAdapter(adapter);
