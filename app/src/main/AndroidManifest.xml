@@ -37,9 +37,6 @@
         </activity>
         <activity android:name=".renderImage" />
         <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_main2" />
-        <activity
             android:name=".LoginActivity"
             android:label="@string/title_activity_login" />
         <activity
