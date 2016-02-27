@@ -10,12 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2af23fe-ad09-4b0e-82ec-19b39b7c05e9" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\Karen\Documents\GitHub\Aurora\app\src\main\java\com\eje_c\rajawalicardboard\Main2Activity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/eje_c/rajawalicardboard/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_select_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_select_login.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/eje_c/rajawalicardboard/selectLogin.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/eje_c/rajawalicardboard/selectLogin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MOVED" beforePath="C:\Users\Karen\Documents\GitHub\Aurora\app\src\main\res\layout\activity_main2.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/eje_c/rajawalicardboard/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/eje_c/rajawalicardboard/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Aurora.iws" />
@@ -2895,7 +2891,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/eje_c/rajawalicardboard/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_render_image.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login_activity_realtor.xml" />
@@ -2904,6 +2899,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/eje_c/rajawalicardboard/selectLogin.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/eje_c/rajawalicardboard/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -3244,7 +3240,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3311,7 +3307,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main2.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38724375">
           <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
