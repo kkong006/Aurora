@@ -16,4 +16,6 @@
         completions."
     </string>
     <string name="title_activity_login_activity_realtor">Sign in</string>
+    <string name="title_activity_select_login">selectLogin</string>
+    <color name="white">#FFFFFF</color>
 </resources>

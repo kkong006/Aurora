@@ -45,7 +45,9 @@
         <activity
             android:name=".LoginActivityRealtor"
             android:label="@string/title_activity_login_activity_realtor" />
-        <activity android:name=".selectLogin"></activity>
+        <activity
+            android:name=".selectLogin"
+            android:label="@string/title_activity_select_login"></activity>
     </application>
 
 </manifest>
