@@ -16,18 +16,6 @@ public class MainActivity extends Activity {
 
 
     }
-   // private static class MyRenderer extends RajawaliCardboardRenderer {
-//        public MyRenderer(Context context) {
-//            super(context);
-//        }
-//
-//        @Override
-//        protected void initScene() {
-//
-//            // create your scene
-//
-//        }
-//    }
 }
 
 
