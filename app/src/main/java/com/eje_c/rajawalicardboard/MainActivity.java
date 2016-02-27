@@ -3,7 +3,7 @@ package com.eje_c.rajawalicardboard;
 import android.os.Bundle;
 import android.app.Activity;
 
-public class Main2Activity extends Activity {
+public class MainActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

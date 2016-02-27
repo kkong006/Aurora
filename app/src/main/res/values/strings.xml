@@ -17,5 +17,8 @@
     </string>
     <string name="title_activity_login_activity_realtor">Sign in</string>
     <string name="title_activity_select_login">selectLogin</string>
+    <string name="client_login">Client Login</string>
+    <string name="realtor_login">Realtor Login</string>
     <color name="white">#FFFFFF</color>
+    <color name="grey">#1C1C1C</color>
 </resources>

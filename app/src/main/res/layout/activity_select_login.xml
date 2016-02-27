@@ -9,5 +9,22 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/white"
     tools:context="com.eje_c.rajawalicardboard.selectLogin">
+    <Button
+        android:id="@+id/client_login_bt"
+        android:layout_marginTop="75dp"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:background="@color/grey"
+        android:text="@string/client_login"
+        android:textSize="36sp"/>
+    <Button
+        android:id="@+id/realtor_login_bt"
+        android:layout_below="@id/client_login_bt"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="175dp"
+        android:background="@color/grey"
+        android:text="@string/realtor_login"
+        android:textSize="36sp"/>
 
 </RelativeLayout>
