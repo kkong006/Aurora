@@ -1,7 +1,16 @@
 <resources>
-    <string name="app_name">RajawaliCardboard</string>
-    <string name="title_activity_main2">Main2Activity</string>
-    <string name="title_activity_login">Sign in</string>
+    <string name="app_name">Aurora</string>
+
+    <string name="client_login">Client Login</string>
+    <string name="realtor_login">Realtor Login</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps_info">MapsInfoActivity</string>
+    <string name="title_activity_login_client">Sign in</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
@@ -15,10 +24,8 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-    <string name="title_activity_login_activity_realtor">Sign in</string>
-    <string name="title_activity_select_login">selectLogin</string>
-    <string name="client_login">Client Login</string>
-    <string name="realtor_login">Realtor Login</string>
-    <color name="white">#FFFFFF</color>
-    <color name="grey">#1C1C1C</color>
+    <string name="title_activity_login_realtor">Sign in</string>
+    <string name="title_activity_enter_information">EnterInformation</string>
+    <string name="title_activity_view_image">ViewImage</string>
+    <string name="title_activity_saved_houses_list">SavedHousesList</string>
 </resources>

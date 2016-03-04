@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.karen.navdrawer.EnterInformation">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_enter_information" />
+    <EditText
+        android:id = "@+id/Address"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Address"/>
+    <EditText
+        android:id = "@+id/Price"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Price"/>
+    <EditText
+        android:id = "@+id/dimensions"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Square Feet"/>
+    <EditText
+        android:id = "@+id/Rooms"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Rooms"/>
+    <EditText
+        android:id = "@+id/Info"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Additional Info"/>
+    <Button
+        android:id = "@+id/add"
+        android:layout_width= "200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="80dp"
+        android:text = "Add Property"
+        />
+
+</android.support.design.widget.CoordinatorLayout>

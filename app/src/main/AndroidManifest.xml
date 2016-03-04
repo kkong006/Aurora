@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.hacktech2016.aurora">
+    package="com.example.karen.navdrawer">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
 
     <!-- NOTE:required for Cardboard -->
     <uses-permission android:name="android.permission.NFC" />
@@ -22,29 +26,57 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <!-- NOTE: Activity must be in landscape orientation -->
         <activity
-            android:name="com.hacktech2016.aurora.selectLogin"
-            android:label="@string/title_activity_select_login">
-            android:screenOrientation="landscape">
+            android:name=".selectLogin"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.hacktech2016.aurora.renderImage" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDlEFFBOAlnvVmNJvVl6TckaS-NyG9EjiQ" />
+
         <activity
-            android:name="com.hacktech2016.aurora.LoginActivity"
-            android:label="@string/title_activity_login" />
+            android:name=".MainActivityNavDrawer"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.hacktech2016.aurora.LoginActivityRealtor"
-            android:label="@string/title_activity_login_activity_realtor" />
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.hacktech2016.aurora.MainActivity"
-            android:label="@string/app_name"></activity>
+            android:name=".MapsInfoActivity"
+            android:label="@string/title_activity_maps_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginClient"
+            android:label="@string/title_activity_login_client" />
+        <activity
+            android:name=".LoginRealtor"
+            android:label="@string/title_activity_login_realtor" />
+        <activity
+            android:name=".EnterInformation"
+            android:label="@string/title_activity_enter_information"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewRenderedImage"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SavedHousesList"
+            android:label="@string/title_activity_saved_houses_list"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
